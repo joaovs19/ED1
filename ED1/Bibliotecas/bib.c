@@ -34,7 +34,7 @@ float MediaAltura(int n){
 	int i;
 
 	for(i = 0; i < n; i++){
-		printf("Informe sua altura%d \n", i+1);
+		printf("Informe sua altura: %d \n", i+1);
 		scanf("%f", &altura);
 		soma += altura;
 	}
